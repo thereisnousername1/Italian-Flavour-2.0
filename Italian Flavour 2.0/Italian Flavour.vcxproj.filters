@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{582c04a1-db8f-41ab-aa4d-159e2561ffe3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="helper">
+      <UniqueIdentifier>{7c56b19f-7b4d-495c-bb31-3a0ddbe0fa47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="helper\stb">
+      <UniqueIdentifier>{11a5ce5f-08a9-4fd1-9d9c-dcf57d024be4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="media">
+      <UniqueIdentifier>{e754f251-9ec5-4b39-9b54-5a931b3c698c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5ced047d-6bcc-4356-8335-98492691f25e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{c99816e6-d3b1-411d-90e6-c0b831461e49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{575880bf-7d94-47c9-b1a6-bccfe7d10b0d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="scenebasic_uniform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="helper\scenerunner.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="helper\glslprogram.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="helper\glutils.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="helper\scene.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="helper\stb\stb_image_write.h">
+      <Filter>helper\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="helper\torus.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="helper\trianglemesh.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="helper\teapot.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="helper\teapotdata.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="helper\drawable.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="helper\aabb.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="helper\objmesh.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="helper\plane.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="helper\utils.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="helper\stb\stb_image.h">
+      <Filter>helper\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="helper\cube.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="helper\skybox.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="helper\texture.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="helper\random.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="helper\sphere.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="helper\glslprogram.cpp">
+      <Filter>helper</Filter>
+    </ClCompile>
+    <ClCompile Include="helper\glutils.cpp">
+      <Filter>helper</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scenebasic_uniform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="helper\teapot.cpp">
+      <Filter>helper</Filter>
+    </ClCompile>
+    <ClCompile Include="helper\torus.cpp">
+      <Filter>helper</Filter>
+    </ClCompile>
+    <ClCompile Include="helper\trianglemesh.cpp">
+      <Filter>helper</Filter>
+    </ClCompile>
+    <ClCompile Include="helper\objmesh.cpp">
+      <Filter>helper</Filter>
+    </ClCompile>
+    <ClCompile Include="helper\plane.cpp">
+      <Filter>helper</Filter>
+    </ClCompile>
+    <ClCompile Include="helper\stb\stb_image.cpp">
+      <Filter>helper\stb</Filter>
+    </ClCompile>
+    <ClCompile Include="helper\cube.cpp">
+      <Filter>helper</Filter>
+    </ClCompile>
+    <ClCompile Include="helper\skybox.cpp">
+      <Filter>helper</Filter>
+    </ClCompile>
+    <ClCompile Include="helper\texture.cpp">
+      <Filter>helper</Filter>
+    </ClCompile>
+    <ClCompile Include="helper\sphere.cpp">
+      <Filter>helper</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader\basic_uniform.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shader\basic_uniform.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shader\skybox.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shader\skybox.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shader\wireframe_explosive.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shader\wireframe_explosive.geom">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shader\wireframe_explosive.vert">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

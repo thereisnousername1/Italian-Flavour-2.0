@@ -1,0 +1,17 @@
+VC++ Directories:
+
+Include path to paste:
+
+// regular glfw
+C:\Users\Public\OpenGL\include
+
+----------------------------------------------------------------------------------------------------
+Library path to paste:
+
+// regular glfw
+C:\Users\Public\OpenGL\lib
+
+----------------------------------------------------------------------------------------------------
+Linker Dependencies:
+glfw3.lib
+opengl32.lib

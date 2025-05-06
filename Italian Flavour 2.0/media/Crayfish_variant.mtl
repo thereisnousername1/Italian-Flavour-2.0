@@ -1,0 +1,109 @@
+# 3ds Max Wavefront OBJ Exporter v0.99 - (c)2007 guruware
+# File Created: 07.01.2025 05:20:34
+
+newmtl 03___Default
+	Kd 0.1020 0.1020 0.1020
+	Ks 1.0000 1.0000 1.0000
+	Tr 0.8000
+	d 0.2000
+	Tf 0.8776 0.9620 1.0000
+	Pr 0.0000
+	Pm 0.0000
+	Pc 0.0000
+	Pcr 0.1200
+	Ni 1.5000
+	Ke 0.0000 0.0000 0.0000
+	illum 2
+	map_Kd crayfish_texture\lobster_skin_37_55_roughness.jpg
+
+newmtl 01___Default
+	Kd 1.0000 0.0000 0.0000
+	Ks 1.0000 1.0000 1.0000
+	Tr 0.0000
+	d 1.0000
+	Tf 1.0000 1.0000 1.0000
+	Pr 0.0800
+	Pm 0.9700
+	Pc 0.0000
+	Pcr 0.0000
+	Ni 1.5200
+	Ke 0.0000 0.0000 0.0000
+	illum 2
+	map_Kd crayfish_texture\lobster_skin_37_55_diffuse.jpg
+	map_Pr crayfish_texture\lobster_skin_37_55_glossiness.jpg
+	map_Pm crayfish_texture\lobster_skin_37_55_metallic.jpg
+	bump crayfish_texture\lobster_skin_37_55_normal.jpg
+	map_bump crayfish_texture\lobster_skin_37_55_normal.jpg
+
+newmtl 02___Default
+	Kd 1.0000 1.0000 1.0000
+	Ks 1.0000 1.0000 1.0000
+	Tr 0.0000
+	d 1.0000
+	Tf 1.0000 1.0000 1.0000
+	Pr 0.0800
+	Pm 1.0000
+	Pc 0.0000
+	Pcr 0.0000
+	Ni 1.5200
+	illum 2
+	map_Pr crayfish_texture\lobster_skin_37_55_glossiness.jpg
+	map_Pm crayfish_texture\lobster_skin_37_55_metallic.jpg
+	map_Ke crayfish_texture\lobster_skin_37_55_glossiness.jpg
+	bump crayfish_texture\lobster_skin_37_55_normal.jpg
+	map_bump crayfish_texture\lobster_skin_37_55_normal.jpg
+
+newmtl Material__48
+	Kd 1.0000 1.0000 1.0000
+	Ks 1.0000 1.0000 1.0000
+	Tr 0.0000
+	d 1.0000
+	Tf 1.0000 1.0000 1.0000
+	Pr 1.0000
+	Pm 0.0000
+	Pc 0.0000
+	Pcr 0.0000
+	Ni 1.5200
+	Ke 0.0000 0.0000 0.0000
+	illum 2
+	map_Kd crayfish_texture\food_0015_color_1k.jpg
+	map_Pr crayfish_texture\food_0015_roughness_1k.jpg
+	bump crayfish_texture\food_0015_normal_opengl_1k.png
+	map_bump crayfish_texture\food_0015_normal_opengl_1k.png
+
+newmtl Material__51
+	Kd 0.1247 0.1247 0.1247
+	Ks 1.0000 1.0000 1.0000
+	Tr 0.0000
+	d 1.0000
+	Tf 1.0000 1.0000 1.0000
+	Pr 1.0000
+	Pm 0.0000
+	Pc 0.0000
+	Pcr 0.0000
+	Ni 1.5200
+	Ke 0.0000 0.0000 0.0000
+	illum 2
+	map_Kd crayfish_texture\paper_0024_color_1k.jpg
+	map_Ks crayfish_texture\paper_0024_height_1k.png
+	map_Pr crayfish_texture\paper_0024_roughness_1k.jpg
+	bump crayfish_texture\paper_0024_normal_opengl_1k.png
+	map_bump crayfish_texture\paper_0024_normal_opengl_1k.png
+
+newmtl 09___Default
+	Kd 0.0000 1.0000 0.0000
+	Ks 1.0000 1.0000 1.0000
+	Tr 0.0000
+	d 1.0000
+	Tf 1.0000 1.0000 1.0000
+	Pr 1.0000
+	Pm 0.0000
+	Pc 0.0000
+	Pcr 0.0000
+	Ni 1.5200
+	Ke 0.0000 0.0000 0.0000
+	illum 2
+	map_Kd crayfish_texture\green.jpg
+	map_Pr crayfish_texture\paper_0024_roughness_1k.jpg
+	bump crayfish_texture\paper_0024_normal_opengl_1k.png
+	map_bump crayfish_texture\paper_0024_normal_opengl_1k.png
