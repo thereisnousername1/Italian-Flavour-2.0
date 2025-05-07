@@ -74,7 +74,7 @@ A post-processing Sobel filter highlights edges based on intensity differences b
 
 ## Video Demonstration
 
-**YouTube Link**: 
+**YouTube Link**: https://youtu.be/D4MqL9_Pofc
 
 ---
 
